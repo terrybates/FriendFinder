@@ -1,0 +1,167 @@
+//array of friends
+var friends = [
+  {
+      "name":"Castro",
+      "photo":"http://vignette2.wikia.nocookie.net/sonic/images/8/8c/Sonic_115.png/revision/20150424204705",
+      "scores":[
+         2,
+         2,
+         4,
+         1,
+         5,
+         2,
+         4,
+         2,
+         3,
+         3
+          ]
+      },
+  {
+  "name":"Ricky",
+  "photo":"http://a.abcnews.com/images/International/RT-week-in-pictures-cricket-jef-170104_22x15_1600.jpg",
+  "scores":[
+     1,
+     2,
+     1,
+     2,
+     3, 
+     3,
+     3,
+     5,
+     5,
+     4
+      ]
+},
+{
+  "name":"Steven",
+  "photo":"http://mail.rsgc.on.ca/~ldevir/ICS3U/Chapter4/Images/tux.png",
+  "scores":[
+     2,
+     3,
+     4,
+     5,
+     5,
+     4,
+     3,
+     3,
+     4,
+     1
+      ]
+},
+{
+  "name":"Slim",
+  "photo":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSR0CJf3eFCiL6_cTGSbJvLENpN-ETrYwBYc2owPJJpdzpzXmY-",
+  "scores":[
+     2,
+     2,
+     2,
+     2,
+     2,
+     3,
+     3,
+     3,
+     3,
+     3
+      ]
+},
+{
+  "name":"Isreal",
+  "photo":"http://www.tropicalwebdesigner.com/java/imagenes/apple_regue.png",
+  "scores":[
+     5,
+     1,
+     1,
+     3,
+     1,
+     2,
+     4,
+     3,
+     5,
+     1
+      ]
+},
+{
+  "name":"rocky",
+  "photo":"http://wiki.inf.utfsm.cl/images/e/e8/Beastie.png",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Jamael",
+  "photo":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWOVdsz561x2_sTaw7NUVqa85e3sCTPla7FVXYhPnzegMeownz_w",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Jason",
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKeXpB_lzAZfgGrkW1ShxEzv9YFXlvSF3iorclWLW5SgBEsWL09A",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Nate",
+  "photo":"http://www.wikkawiki.org/images/wizard.gif",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Derick",
+  "photo":"http://www.clipartbest.com/cliparts/4T9/64x/4T964xKqc.png",
+  "scores":[
+     2,
+     3,
+     4,
+     3,
+     5,
+     2,
+     1,
+     2,
+     3,
+     1
+     
+      ]
+}
+]
+
+// Note how we export the array. This makes it accessible to other files using require.
+module.exports = friends;

@@ -1,0 +1,25 @@
+{
+  "name": "tbates",
+  "version": "1.0.0",
+  "description": "App used to find friend that is similar to you.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrybates/FriendFinder.git"
+  },
+  "author": "theresabates",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terrybates/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/terrybates/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
+}
